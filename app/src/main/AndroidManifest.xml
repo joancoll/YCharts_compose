@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.YCharts_compose"
+        tools:targetApi="31">
+        <activity
+            android:name="cat.dam.andy.ycharts_compose.presentation.BarChartActivity"
+            android:exported="false"
+            android:label="@string/title_activity_bar_chart"
+            android:theme="@style/Theme.YCharts_compose" />
+        <activity
+            android:name="cat.dam.andy.ycharts_compose.presentation.GroupedBarChartActivity"
+            android:exported="false"
+            android:label="@string/title_activity_bar_chart"
+            android:theme="@style/Theme.YCharts_compose" />
+        <activity
+            android:name="cat.dam.andy.ycharts_compose.presentation.LineChartActivity"
+            android:exported="false"
+            android:label="@string/title_activity_line_chart"
+            android:theme="@style/Theme.YCharts_compose" />
+        <activity
+            android:name="cat.dam.andy.ycharts_compose.presentation.WaveChartActivity"
+            android:exported="false"
+            android:label="@string/title_activity_wave_chart"
+            android:theme="@style/Theme.YCharts_compose" />
+        <activity
+            android:name="cat.dam.andy.ycharts_compose.presentation.PieChartActivity"
+            android:exported="false"
+            android:label="@string/title_activity_pie_chart"
+            android:theme="@style/Theme.YCharts_compose" />
+        <activity
+            android:name="cat.dam.andy.ycharts_compose.presentation.DonutChartActivity"
+            android:exported="false"
+            android:label="@string/title_activity_donut_chart"
+            android:theme="@style/Theme.YCharts_compose" />
+        <activity
+            android:name="cat.dam.andy.ycharts_compose.presentation.CombinedLineAndBarChartActivity"
+            android:exported="false"
+            android:label="@string/title_activity_combined_line_bar_chart"
+            android:theme="@style/Theme.YCharts_compose" />
+        <activity
+            android:name="cat.dam.andy.ycharts_compose.presentation.BubbleChartActivity"
+            android:exported="false"
+            android:label="@string/title_bubble_chart"
+            android:theme="@style/Theme.YCharts_compose" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.YCharts_compose">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
